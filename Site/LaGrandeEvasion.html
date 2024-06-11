@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Epigames - La Grande Evasion</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="theme=" dark" position="bottom-right"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="images.png" sizes=16*16 href="logo_entreprise.png">
+    <style>
+      /* Style pour le menu déroulant */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        color: white;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        background-color: #212F3C;
+        color:yellow;
+        z-index: 1;
+
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #797D7F;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="menu">
+      <div class="dropdown">
+          <span><a href="index.html">EpiGames</a></span>
+        <div class="dropdown-content">
+          <a href= "LaGrandeEvasion.html">La Grande Evasion</a>
+          <a href="Apropos.html">A propos</a>
+        </div>
+      </div>
+        
+    </header>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div class="contenu">
+    <h1>La Grande Evasion</h1>
+    <img src="LOGO_LGE.png" height="450px">
+    <br/>
+    <br/>
+    <h2>Installation du Jeu</h2>
+    <a href="" download="LaGrandeEvasion.png"><button onclick="afficheMessage()">Projet</button></a>
+    <a href=""><button onclick="afficheMessage()">Projet Version Allégée</button></a>
+    <br/>
+    <h2>Présentation du Projet</h2>
+    <h3 align=left>I--Chronologie de Réalisation</h3>
+    <p align=justify>Nous avons commencé par importer un personnage sur Unity et lui donner toutes les caracteristiques physiques attendues(masse,capsule de collision,...) et des capacités physiques(mouvements, saut, sprint,...). Ensuite, nous avons ajouté les animations. Nous avons aussi créé un script pour que la caméra suive le joueur. Pour l'instant en 3e personne pour la démonstration mais sera en 1ere personne dans la version finale de notre jeu vidéo.
+      Pendant qu'une partie de l'équipe s'occupait de ça, l'autre s'est occupée de modéliser la prison sur le logiciel 3D Blender pour ensuite l'intégrer au projet Unity. On a reussi à faire réagir les portes au contact du joueur. Enfin, nous avons commencé à implémenter l'IA.
+    </p>
+    
+    <br/>
+    <h3 align=left>II--Logiciels utilisés</h3>
+    <p align="justify">Pour la conception 3D, nous avons choisi <a href="https://www.blender.org">Blender</a>. Pour la programmation, nous avons choisi <a href="https://code.visualstudio.com/">Visual Studio Code</a> et <a href="https://www.unity.org">Unity</a> pour lier le tout.</p> <!-- youcef a mis les liens que tu voulais jai supp les parenthese et tt -->
+
+    <h2>Liens Utiles</h2>
+    <a href="Rapport_de_soutenance_Epi_Games_definitif.pdf" download="LaGrande Evasion - Rapport de Soutenance 1 ">
+      <button>Rapport de Soutenance mars</button>
+    </a>
+    <a href=""><button onClick="afficheMessage()">Rapport de Projet</button></a>
+    <br/>
+    <br/>
+  </div>
+    <br/>
+    <br/>
+
+    <footer>
+      <table align=center>
+        <tr>
+          <th>Nom</th>
+        <th>Contact</th>
+        </tr>
+        <tr>
+          <td>Wael Akhdar</td>
+          <td>wael.akhdar@epita.fr</td>
+        </tr>
+        <tr>
+          <td>Youcef Zahra</td>
+          <td>youcef.zahra@epita.fr</td>
+        </tr>
+        <tr>
+          <td>Nabil Lassik</td>
+          <td>nabil.lassik@epita.fr</td>
+        </tr>
+        <tr>
+          <td>Ilann Oller</td>
+          <td>ilann.oller@epita.fr</td>
+        </tr>
+        <td>Jessim Ziani</td>
+        <td>jessim.ziani@epita.fr</td>
+      </table>
+    </footer>
+</body>
+</html>

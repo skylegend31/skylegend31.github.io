@@ -1,0 +1,94 @@
+body {
+  background-image: url(fond_intro_rouge_noir_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color: #16144F;*/
+  background-size: cover;
+  margin: 0;
+  padding:0;
+  margin-top: 20px;
+  color: #ffffff; /* ou alors #78a39c*/
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-attachment: fixed;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h1 {
+  font-size: 70px;
+  font-style: "OCR A Std, monospace";
+  color:#FD0404;
+}
+a{
+  color:#ffffff
+}
+img {
+  text-align: center;
+}
+th {
+  font-size: 18;
+}
+header span{
+  font-size: 24px;
+  
+}
+h2{
+  color:#FD0404;
+}
+
+header{
+  top :0;
+  text-align: center;
+  position: fixed;
+  background-color:#212F3C;
+  width: 100%;
+  color:white;
+  padding: 0 auto;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+.menu{
+  background-color:#515A5A;
+}
+
+
+.contenu {
+  text-align: center;
+  width: 55%;
+  /* Largeur du bloc */
+  height: 100%;
+  margin: 0 auto;
+  /* Centrer le bloc horizontalement */
+  background-color: rgba(63,63,63,0.8);
+  /*background-image: url("fond_intro_rouge_noir_1.png");*/
+  /* Couleur de fond du bloc */
+  padding: 20px;
+  /* Espace intérieur du bloc */
+  border: 1px solid #ccc;
+  /* Bordure du bloc */
+}
+img{
+  height: 450px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+footer{
+  text-align: center;
+  background-color: #212F3C;
+  width: 100%;
+  color: white;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  flex:1;
+}
