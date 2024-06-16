@@ -31,7 +31,7 @@ h1 {
   color:#FD0404;
 }
 a{
-  color:#ffffff
+  color:white;
 }
 img {
   text-align: center;
@@ -45,6 +45,9 @@ header span{
 }
 h2{
   color:#FD0404;
+}
+.lesbouttons{
+  color: black;
 }
 
 header{
